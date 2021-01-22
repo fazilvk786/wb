@@ -1,7 +1,7 @@
 {
-  "name": "termux-whatsapp-bot",
+  "name": "*ലിജൂട്ടൻ😁*",
   "version": "0.0.2",
-  "description": "Only termux",
+  "description": "*രോഹിത് അണ്ണൻറെ തലയിൽ വർക്ക് ചെയ്യുന്ന ലിജൂട്ടൻ ബോട്ട് ആണിത്😜. PM ലേക്ക് ആരെങ്കിലും കടന്നു വന്നാൽ അവൻറെ ആസനത്തിൽ പന്നിപ്പടക്കം🧨 വെച്ച് പൊട്ടിക്കുന്നതാണ്😈. ആയതുകൊണ്ട് ശ്രദ്ധിച്ചിരിക്കുക. ഇല്ലെങ്കിൽ ഉടൻ ലിജുട്ടൻ പണി തരുന്നതാണ്*",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "NazwaS",
+  "author": " Muhammed Fazil vk",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
@@ -40,10 +40,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NazwaS/termux-whatsapp-bot.git"
+    "url": "git+https://github.com/fazilvk786/wb.git"
   },
   "bugs": {
-    "url": "https://github.com/NazwaS/termux-whatsapp-bot/issues"
+    "url": "https://github.com/fazilvk786/wb/issues"
+}
   },
-  "homepage": "https://github.com/NazwaS/termux-whatsapp-bot#readme"
+  "homepage": "https://github.com/fazilvk786/wb#readme"
 }
