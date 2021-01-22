@@ -75,8 +75,8 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Nazwa🖤\n' // full name
-            + 'ORG:Owner Bot;\n' // the organization of the contact
+            + 'FN:ലിജൂട്ടൻ😁\n' // full name
+            + 'ORG: MUHAMMED FAZIL VK;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=12542123926:+1 (254) 212-3926\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
@@ -205,7 +205,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋`
+				teks = `Goodbye @${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -243,27 +243,27 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Sedang di Prosess ⌛',
-				success: '✔️ Berhasil ✔️',
+				wait: '⌛ In Prosess ⌛',
+				success: '✔️ ഇത് പ്രവർത്തിക്കുന്നു ✔️',
                                 levelon: '❬ ✔ ❭ *enable leveling*',
 				leveloff: ' ❬ X ❭  *disable leveling*',
-				levelnoton: '❬ X ❭ *leveling not aktif*',
-				levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
+				levelnoton: '❬ X ❭ *leveling not active*',
+				levelnol: '*BROTHER LEVEL STILL* 0 °-°',
 				error: {
-					stick: '[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-					Iv: '❌ Link tidak valid ❌'
+					stick: '[❗] പരാജയപ്പെട്ടു, ചിത്രം സ്റ്റിക്കറിലേക്ക് പരിവർത്തനം ചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു ❌',
+					Iv: '❌ ലിങ്ക് അസാധുവാണ് ❌'
 				},
 				only: {
-					group: '[❗] Perintah ini hanya bisa di gunakan dalam group! ❌',
-					ownerG: '[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌',
-					ownerB: '[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
-					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
-					Badmin: '[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
-                                        daftarB: `──「 DAFTAR 」──\nHalo kak !\nKamu belum Terdaftar didalam database, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Ryz|17`,
+					group: '[❗] ഈ കമാൻഡ് ഗ്രൂപ്പുകളിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ! ❌',
+					ownerG: '[❗]ഈ കമാൻഡ് ഉടമ ഗ്രൂപ്പിന് മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ! ❌',
+					ownerB: '[❗] ഈ കമാൻഡ് ഉടമ ബോട്ടിന് മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ! ❌',
+					admin: '[❗] ഗ്രൂപ്പ് അഡ്‌മിനുകൾക്ക് മാത്രമേ ഈ കമാൻഡ് ഉപയോഗിക്കാൻ കഴിയൂ! ❌',
+					Badmin: '[❗] ബോട്ട് അഡ്മിൻ ആകുമ്പോൾ മാത്രമേ ഈ കമാൻഡ് ഉപയോഗിക്കാൻ കഴിയൂ! ❌',
+                                        daftarB: `──「 DAFTAR 」──\nഹലോ എങ്ങനെ !\nനിങ്ങൾ ഡാറ്റാബേസിൽ രജിസ്റ്റർ ചെയ്തിട്ടില്ല, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Ryz|17`,
 				}
 			}
-    			const apakah = ['Ya','Tidak']
-        		const bisakah = ['Bisa','Tidak Bisa']
+    			const apakah = [ 'അത','അല്ല']
+        		const bisakah = ['കഴിയും','കഴിയില്ല']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
 			const ownerNumber = ["12542123926@s.whatsapp.net"] // replace this with your number
